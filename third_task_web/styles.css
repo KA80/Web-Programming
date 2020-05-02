@@ -102,7 +102,7 @@ body {
     position: relative;
 }
 
-.card {
+.row .col .card {
     width: 500px;
 }
 
