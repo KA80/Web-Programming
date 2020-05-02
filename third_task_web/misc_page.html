@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <title>Fullest MathML support using MathJax</title>
+    <script>window.MathJax = { MathML: { extensions: ["mml3.js", "content-mathml.js"] } };</script>
+    <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=MML_HTMLorMML"></script>
+    <title>Skyrim</title>
+</head>
+
+<body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+
+
+
+
+    <div class="container-fluid">
+
+        <br>
+        <!-- НАВ БАР -->
+        <nav class="navbar navbar-expand-xl navbar-dark">
+            <div class="navbar-brand"><img src="images/skyrim_title.png" alt="skyrim logo" height="60"></div>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="main_page.html">Главная страница</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ownership_page.html">Владения Скайрима</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Еще о игре <span
+                                class="badge badge-light">3</span></a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="dragon_shouts.html">О драконьих криках</a>
+                            <a class="dropdown-item" href="#" data-toggle="dropdown">Галерея <span
+                                    class="badge badge-light">2</span></a>
+
+
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="gallery_arts.html">Арты</a>
+                                <a class="dropdown-item" href="gallery_screens.html">Скриншоты</a>
+                            </div>
+
+
+
+                            <a class="dropdown-item" href="#">Еще</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">В разработке</a>
+                    </li>
+                </ul>
+                <img src="images/skyrim_logo.png" alt="skyrim logo" height="70">
+            </div>
+        </nav>
+
+        <!-- КРОШКИ -->
+        <div class="container-fluid">
+            <br>
+            <ol class="breadcrumb bg-dark">
+                <li class="breadcrumb-item" id="breadcrumb" aria-current="page">Еще о игре</li>
+                <li class="breadcrumb-item active" id="breadcrumb" aria-current="page">Еще</li>
+            </ol>
+        </div>
+
+        <div class="container-fluid" id="dragon-shouts">
+            <div class = "row">
+                <div class="col">
+                    <div class="card bg-dark">
+                        <button type="button" class="btn" data-toggle="modal" data-target=".bd-example-modal-xl">
+                            <img src="images/guard_whiterun.jpg" alt="guard_whiterun">
+                        </button>
+                
+                        <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                                <div class="modal-content bg-dark">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">но, потом мне прострелили колено...</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="images/arrow_and_leg.jpg">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Когда-то и меня вела дорога преключений...</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <a class = "btn" href="https://steamcommunity.com/id/-k8"><img src="images/steam_icon.png" alt="steam" class="icon" align="center"></a>
+                    <a class = "btn" href="https://github.com/KA80"><img src="images/github_icon.png" alt="github" class="icon" align="center"></a>
+                    <a class = "btn" href="https://www.instagram.com/nagornov_stas/"><img src="images/instagram_icon.png" alt="instagram" class="icon" align="center"></a>
+                    <a class = "btn" href="https://vk.com/stas_nagornov"><img src="images/vk_icon.png" alt="vkontakte" class="icon" align="center"></a>
+                </div>
+
+                <div class = "col svg">
+                    <svg cx = "200" width="215px" height="274px" viewBox="0 0 215 274">
+                        <circle cx="75" cy="75" r="75" fill="#000088" />
+                        <rect width="20" height="90" x="94" y="-40" fill="#ffffff" transform="rotate(40)" />
+                        <rect width="20" height="90" x="100" y="-45" fill="#ffffff" transform="rotate(50)" />
+                        <circle cx="100" cy="50" r="20" fill="#ffffff" />
+                        <circle cx="100" cy="50" r="15" fill="#000088" />
+                        <circle cx="100" cy="50" r="10" fill="#ffffff" />
+                        <circle cx="45" cy="105" r="15" fill="#ffffff" />
+                        <circle cx="45" cy="105" r="12" fill="#000088" />
+                        <circle cx="45" cy="105" r="8" fill="#ffffff" />
+                        <rect width="13" height="90" x="70" y="-80" fill="#ffffff" transform="rotate(115)"/>
+                    </svg>
+
+                    
+
+                </div>
+                <div class="col MathML">
+                    <br>
+                    <math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <mi>x</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mo>-</mo>
+                                <mi>b</mi>
+                                <mo>&#xB1;</mo>
+                                <msqrt>
+                                    <msup>
+                                        <mi>b</mi>
+                                        <mn>2</mn>
+                                    </msup>
+                                    <mo>-</mo>
+                                    <mn>4</mn>
+                                    <mi>a</mi>
+                                    <mi>c</mi>
+                                </msqrt>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                                <mi>a</mi>
+                            </mrow>
+                        </mfrac>
+                    </math>
+                    <br>
+                    <math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <mi>y</mi>
+                        <mo>=</mo>
+                        <mn>10</mn>
+                        <msup>
+                            <mi>x</mi>
+                            <mn>2</mn>
+                        </msup>
+                        <mo>+</mo>
+                        <mn>5</mn>
+                        <mi>x</mi>
+                        <mo>-</mo>
+                        <mn>2</mn>
+                    </math>
+                    <br>
+                    <math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <mo>&#x222B;</mo>
+                        <msup>
+                            <mi>x</mi>
+                            <mn>2</mn>
+                        </msup>
+                        <mi>sin</mi>
+                        <mn>2</mn>
+                        <mi>x</mi>
+                        <mi>d</mi>
+                        <mi>x</mi>
+                    </math>
+                    <br>
+                    <math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <munder>
+                            <mi>lim</mi>
+                            <mrow>
+                                <mi>x</mi>
+                                <mo>&#x2192;</mo>
+                                <mn>0</mn>
+                            </mrow>
+                        </munder>
+                        <mfrac>
+                            <mrow>
+                                <msup>
+                                    <mi>e</mi>
+                                    <msup>
+                                        <mi>x</mi>
+                                        <mn>3</mn>
+                                    </msup>
+                                </msup>
+                                <mo>-</mo>
+                                <mn>1</mn>
+                                <mo>-</mo>
+                                <msup>
+                                    <mi>x</mi>
+                                    <mn>3</mn>
+                                </msup>
+                            </mrow>
+                            <mrow>
+                                <msup>
+                                    <mi>sin</mi>
+                                    <mn>6</mn>
+                                </msup>
+                                <mn>2</mn>
+                                <mi>x</mi>
+                            </mrow>
+                        </mfrac>
+                    </math>
+                    <br>
+                    <math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <msqrt>
+                            <mn>2</mn>
+                        </msqrt>
+                        <mo>+</mo>
+                        <mroot>
+                            <mn>5</mn>
+                            <mn>3</mn>
+                        </mroot>
+                        <mo>=</mo>
+                        <mi>x</mi>
+                    </math>
+                </div>
+            </div>
+
+            
+        </div>
+        <br>
+    </div>
+
+</body>
+
+</html>

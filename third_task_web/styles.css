@@ -1,0 +1,149 @@
+
+body {
+    background: url(images/background_skyrim.jpg) #000000;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar{
+    background-color: #121f2ed0;
+    font-size: 16pt;
+    border-radius: 5px;
+}
+
+.nav-item .dropdown-menu{
+    background-color: #66999999;
+}
+
+.nav-item .dropdown-menu .dropdown-item{
+    font-size: 16pt;
+}
+
+#breadcrumb{
+    color: #CCCCCC;
+    font-style: italic;
+    font-size: 14pt;
+}
+
+
+
+/* Main page*/
+
+#TabContent p{
+    font-size: 18pt;
+}
+
+#TabContent h2{
+    color: #88a1f3;
+}
+
+.nav-link{
+    color: #CCCCCC;
+}
+
+#Tab .nav-item{
+    font-size: 13pt;
+}
+
+#MainInfo{
+    background-color: #121f2eb0;
+    border-radius: 5px;
+    color: #CCCCCC;
+}
+
+.card-body li{
+    margin-left: 10px;
+}
+
+/* Owner Ship */
+
+.table td{
+    font-size: 22pt;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table{
+    opacity: 0.8;
+}
+
+.table th{
+    text-align: center;
+}
+
+/* Dragon Shouts */
+
+#dragon-shouts{
+    background-color: #121f2ebb;
+}
+
+#dragon-shouts h1{
+    color: #CCCCCC;
+    font-size: 40pt;
+    margin-left: 20pt;
+}
+
+#dragon-shouts p{
+    color: #CCCCCC;
+    font-size: 16pt;
+    margin-top: 30px;
+}
+
+#dragon-shouts .media{
+    color: #a5bbdd;
+}
+
+/* Modal windown */
+
+.modal-content img{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+.card {
+    width: 500px;
+}
+
+.card img{
+    margin-top: 35px;
+}
+
+.card p{
+    text-align: center;
+}
+
+.modal-content, .modal-content span{
+    color: #CCCCCC;
+    font-size: 20pt;
+}
+
+.modal-header h5{
+    font-size: 20pt;
+}
+
+.icon{
+    width: 77%;
+    height: 77%;
+    min-width: 100px;
+    max-width: 295px;
+    background-color: white;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border-radius: 100%;
+    margin-left:10%;
+}
+
+.svg{
+    margin-left: 20px;
+    margin-top: 175px;
+}
+
+.MathML{
+    background-color: #ffffff66;
+    font-size: 40px;
+}
+
+math{
+    margin-top: 50px;
+}
