@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <script>window.MathJax = { MathML: { extensions: ["mml3.js", "content-mathml.js"] } };</script>
+    <script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=MML_HTMLorMML"></script>
+    <title>first</title>
+</head>
+
+<body align='center'>
+    <header>
+        <a href="#">Первое задание</a>
+        <a href="second.html">Второе задание</a>
+        <a href="third.html">Третье задание</a>
+        <a href="fourth.html">Четвертое задание</a>
+        <h1>4 Вариант</h1>
+    </header>
+    <form onsubmit="calculate_first_way();" action="javasctipt:void(0);">
+        <p>Вычисление площади параллелограма через высоту и сторону: <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi>S</mi>
+            <mo>&#xA0;</mo>
+            <mo>=</mo>
+            <mo>&#xA0;</mo>
+            <mi>a</mi>
+            <mo>&#xA0;</mo>
+            <mo>&#xB7;</mo>
+            <mo>&#xA0;</mo>
+            <mi>h</mi>
+        </math><br></p>
+        <input type="number" id="height" placeholder="Height lenght" min="0" title="Input height lenght" required>
+        <input type="number" id="side" placeholder="Side lenght" min="0" title="Input side lenght" required>
+        <button type="submit" title="Calculate parallelogram area">Calculate</button>
+        <button type="reset" id="clear_all" title="Clear all">Clear</button>
+        <input type="number" id="result_first" readonly>
+    </form>
+    
+    <form onsubmit="calculate_second_way();" action="javascript:void(0);">
+        <p>Вычисление площади параллелограма через две стороны и угол между ними: <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi>S</mi>
+            <mo>&#xA0;</mo>
+            <mo>=</mo>
+            <mo>&#xA0;</mo>
+            <mi>a</mi>
+            <mo>&#xA0;</mo>
+            <mo>&#xB7;</mo>
+            <mo>&#xA0;</mo>
+            <mi>b</mi>
+            <mo>&#xA0;</mo>
+            <mo>&#xB7;</mo>
+            <mo>&#xA0;</mo>
+            <mi>sin</mi>
+            <mfenced>
+                <mi>&#x3B1;</mi>
+            </mfenced>
+        </math><br></p>
+        <input type="number" id="side1" placeholder="first side lenght" min="0" title="Input side lenght" required>
+        <input type="number" id="side2" placeholder="second side lenght" min="0" title="Input side lenght" required>
+        <input type="number" id="angle" placeholder="angle" min="0" max="180" title="Input angle between sides" required>
+        <button type="submit" title="Calculate parallelogram area">Calculate</button>
+        <button type="reset" id="clear_all" title="Clear all">Clear</button>
+        <input type="number" id="result_second" readonly>
+    </form>
+
+    <form onsubmit="calculate_third_way();" action="javascript:void(0);">
+        <p>Вычисление площади параллелограма через диагонали и угол м/у ними: <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi>S</mi>
+            <mo>&#xA0;</mo>
+            <mo>=</mo>
+            <mo>&#xA0;</mo>
+            <mfrac>
+                <mn>1</mn>
+                <mn>2</mn>
+            </mfrac>
+            <mo>&#xB7;</mo>
+            <msub>
+                <mi>d</mi>
+                <mn>1</mn>
+            </msub>
+            <mo>&#xA0;</mo>
+            <mo>&#xB7;</mo>
+            <mo>&#xA0;</mo>
+            <msub>
+                <mi>d</mi>
+                <mn>2</mn>
+            </msub>
+            <mo>&#xA0;</mo>
+            <mo>&#xB7;</mo>
+            <mo>&#xA0;</mo>
+            <mi>sin</mi>
+            <mfenced>
+                <mi>&#x3B1;</mi>
+            </mfenced>
+        </math><br></p>
+        <input type="number" id="diagonal1" placeholder="first diagonal lenght" min="0" title="Input diagonal lenght" required>
+        <input type="number" id="diagonal2" placeholder="second diagonal lenght" min="0" title="Input diagonal lenght" required>
+        <input type="number" id="angle_diagonal" placeholder="angle" min="0" max="180" title="Input angle between diagonals" required>
+        <button type="submit" title="Calculate parallelogram area">Calculate</button>
+        <button type="reset" id="clear_all" title="Clear all">Clear</button>
+        <input type="number" id="result_third" readonly>
+    </form>
+
+
+
+    <script src="script.js"> </script>
+</body>

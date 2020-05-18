@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>second</title>
+</head>
+
+<body align='center'>
+    <header>
+        <a href="first.html">Первое задание</a>
+        <a href="#">Второе задание</a>
+        <a href="third.html">Третье задание</a>
+        <a href="fourth.html">Четвертое задание</a>
+        <h1>5 Вариант</h1>
+    </header>
+    <form onsubmit="sum_sequence();" action="javasctipt:void(0);">
+        <h3>Найти сумму первых двадцати элементов последовательности X, X/3, X/5, ... .</h3>
+        <input type="number" id="element" placeholder="Input X" title="Input element" required>
+        <br><br>
+        <button type="submit" title="Calculate">Calculate</button>
+        <button type="reset" id="clear_all" title="Clear all">Clear</button>
+        <br><br>
+        <input type="number" id="result_sequence" readonly>
+    </form>
+    <script src="script.js"></script>
+</body>
