@@ -6,3 +6,4 @@
  * [second task](https://docs.google.com/document/d/1Ny6TKgs4r5Z9kXP9kTNB6twbSt0Q7pbjf5BLUj1CNCY/edit) - Updated menu with styles
  * [third task](https://docs.google.com/document/d/14f5h230Yd-50yS7fPJ_X1TaStLVEd_CVRdi-r13ulf8/edit) - Bootstrap
  * [fourth task](https://docs.google.com/document/d/1f5ZxMfoTtrQkGCjCSkBR6kQVsBmDhNtA756s7ha7z-4/edit) - JavaScript
+ * [fifth task](https://docs.google.com/document/d/1xELJaBT-Y0MbGA1enJldg2jwKGNN8ezURUAWSm9lTdA/edit) - JQuery
