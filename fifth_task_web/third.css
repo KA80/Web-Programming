@@ -1,0 +1,16 @@
+ul li ul{
+    display: none;
+}
+ul{
+    width: 200px;
+    cursor: pointer;
+}
+li:hover{
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+
+li:hover ul{
+    background-color: white;
+    color:black;
+}
