@@ -7,3 +7,5 @@
  * [third task](https://docs.google.com/document/d/14f5h230Yd-50yS7fPJ_X1TaStLVEd_CVRdi-r13ulf8/edit) - Bootstrap
  * [fourth task](https://docs.google.com/document/d/1f5ZxMfoTtrQkGCjCSkBR6kQVsBmDhNtA756s7ha7z-4/edit) - JavaScript
  * [fifth task](https://docs.google.com/document/d/1xELJaBT-Y0MbGA1enJldg2jwKGNN8ezURUAWSm9lTdA/edit) - JQuery
+ * [sixth task](https://docs.google.com/document/d/182qPFeid8-7LaSjv9oJt0Rb8SbAwdsYdmTQ-tAa3eeQ/edit) - Canvas
+ * [seventh task](https://docs.google.com/document/d/1cG0XSBVkatMuM8Xsbnkms-Tuia6hLu7oQedE45VNJVo/edit) - Mini-game
