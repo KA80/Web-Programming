@@ -593,7 +593,7 @@ function gameProcess(){
 
     ctx.fillStyle = "#000000"
     ctx.font = "21px Verdana";
-    ctx.fillText('Уровень сожности  ' + game_difficulty, 20, 30);
+    ctx.fillText('Уровень сложности  ' + game_difficulty, 20, 30);
     ctx.fillText('ИГРОК     ' + player_name, 20, 60)
     ctx.fillText('Монеты   ' + coins, 20, 90);
     ctx.fillText('Счет       ' + player_score, 20, 120);
